@@ -19,6 +19,6 @@ describe('wrap', () => {
   });
 
   it('maintains original spacing and individual word length', () => {
-    expect(wrap('hello my name is mikaela', 7)).to.equal('hello \nmy name\n')
+    expect(wrap('hello my name is Mikaela', 7)).to.equal('hello\nmy name\nis\nMikaela')
   });
 });
